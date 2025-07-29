@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Form.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+<h1>Payment Form</h1>
+<!-- Customer Info start -->
+<h2 id="Customer"> Customers Information</h2>
+<table class="Custom">
+    <tr>
+        <td>
+        <h3>First Name</h3>
+        <input type="text" required="name" placeholder="Example: Qasim">
+        </td>
+         <td>
+        <h3>First Name</h3>
+        <input type="text" required="name" placeholder="Example: Qasim">
+        </td>
+         <td>
+        <h3>First Name</h3>
+        <input type="text" required="name" placeholder="Example: Qasim">
+        </td>
+    </tr>
+    
+</table>
+
+
+<!-- Customer Info End-->
+
+<h2 id="Customer"> Contact Details</h2>
+<hr>
+<!-- Contact Details -->
+ <table class="Contact">
+    <tr>
+<td>
+    <h3>Email address</h3>
+        <input type="email" required="email" placeholder="Example: qasimshibli12@gmail.com">
+</td>
+<td>  <h3>Contact Number</h3>
+        <input type="number" required="name" placeholder="Example:03164844626">
+</td>
+    </tr>
+ </table>
+<!-- Contact Details -->
+ <h2 id="Customer"> Billing Address</h2>
+<hr>
+<!-- Billing -->
+<!-- Contact Details -->
+ <table class="Billing">
+<tr>
+    <td> <h3>Street Address</h3>
+    <input type="text" required="address" placeholder="Example: House 20 , Rajgarh Lahore">
+    </td>
+
+</tr>
+<tr>
+    <td> <h3> Address Line 2</h3>
+    <input type="text" required="address" placeholder="Example: House 20 , Rajgarh Lahore">
+    </td>
+    
+</tr>
+ </table>
+  
+ <table class="Billing"><tr>
+<td> <h3>City</h3>
+    <input type="text" required="address" placeholder="Example: Lahore">
+    </td>
+
+    <td> <h3>State/Province/Region</h3>
+    <input type="text" required="address" placeholder="Example: Punjab">
+    </td>
+</tr></table>
+
+ <table class="Billing"><tr>
+<td> <h3>Zip/Postel Code</h3>
+    <input type="number" required="number" placeholder="Example: 5800">
+    </td>
+
+    <td> <h3>Country </h3>
+  <select id="country" name="country">
+      <option value="Pakistan">Pakistan</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+    </td>
+</tr></table>
+
+
+ <h2 id="Customer"> Payment Information</h2>
+<hr>
+<!-- Payment info -->
+ <table class="Payment">
+<tr>
+<td>
+    <h3>Card Type</h3>
+    <select id="card" name="Card">
+      <option value="Pakistan">Mastercard</option>
+      <option value="canada">Visa Card</option>
+      <option value="usa">PayPak</option>
+    </select></td>
+    </tr>
+    
+    <tr>
+          <td>  <h3>Card number</h3>
+               <input type="number" required="number" placeholder="Example: 3478-4789-7854">
+               </td>
+    </tr>
+    <tr>
+          <td>  <h3>Card number</h3>
+               <input type="date" required="date" placeholder="">
+               </td>
+
+               
+    </tr>
+     <tr>
+          <td>  <h3>CCV</h3>
+               <input type="number" required="number" placeholder="Example: 564">
+               </td>
+
+               
+    </tr>
+ </table>
+ <input type="submit" value="Pay Now">
+</div>
+</body>
+</html>
+ 
